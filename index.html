@@ -1,0 +1,256 @@
+<html>
+
+<head>
+
+	<title>My Google Page Sample</title>
+
+	<style>
+
+        body{
+            margin:0;
+        }
+
+        ul{
+            padding:0;
+        }
+
+		#wrapper{
+			font-family: Arial, sans-serif;
+            font-size: 0.8em;
+		}
+
+        #topMenuBar ul{
+            float:right;
+        }
+
+        #topMenubar li{
+            list-style: none;
+            float:left;
+            padding-right:12px;
+            
+        }
+
+        #accountImage{
+            position:relative;
+            top:-8px;
+        }
+
+        .break{
+            clear: both;
+        }
+
+        #container{
+            width: 450px;
+            margin: 0 auto;
+            padding-top: 150px;
+        }
+
+        #googleLogo{
+            width:272px;
+            margin:0 auto;
+        }
+
+        #formDiv{
+            width: 100%;
+            margin:0 auto;
+        }
+
+        form{
+            padding-top: 30px;
+        }
+        
+        #formDiv input{
+            width: 100%;
+            height: 50px;
+            border:1px solid #dddddd;
+            border-radius: 25px;
+        }
+
+        input[type=text]{
+            border: none;
+        }
+
+        input[type=text]:hover{
+            box-shadow: 1px 1px 5px #aaaaaa ;
+        }
+
+        #searchButtons{
+            padding-right: 0;
+            width: 100%;
+        }
+
+        #searchButtons ul{
+            width: 100%;
+            margin: 30px 0 0 100px;
+        }
+
+        #searchButtons li{
+            list-style: none;
+            float: left;
+            padding-right: 12px;
+        }
+
+        li input[type=submit]{
+            padding: 10px;
+            border:none;
+            border-radius: 3px;
+            color:#5f6770;
+            font-size: 1.1em;
+
+        }
+
+        li input[type=submit]:hover{
+             border:1px solid #5f6770;
+             background-color: #f2f1f0;
+             color:#222222;
+        }
+
+        #lang{
+            float: left;
+            padding:20px 8 0 0;
+        }
+
+        #lang ul{
+            margin:0 8px 0 0;
+        }
+
+        .lang li{
+            float: left;
+            list-style:none;
+            padding: 20 8px 0 12px;
+        }
+
+        #footerContainer{
+            position: fixed;
+            bottom: 0;
+            width:100%;
+        }
+
+        .footer{
+            width:100%;
+            height: 40px;
+            background-color: #f2f1f0;
+            border-top: 1px solid #aaaaaa;
+        }
+
+        .foot{
+            margin-left: 30px;
+        }
+
+        .footer ul{
+            margin-left: 30px;
+            float: left;
+        }
+
+        .footer li{
+            list-style: none;
+            float:left;
+            padding-right: 25px;
+        }
+
+        #right{
+            float :right;
+        }
+	</style>
+
+</head>
+
+<body>
+	
+	<div id="wrapper">
+
+        <div id="topMenuBar">
+
+            <ul>
+
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><img src="images/menulogo.png"></li>
+                <li id="accountImage"><img src="images/account.png"></li>
+
+            </ul>  
+
+        </div>    
+
+        <div class="break"></div>
+
+        <div id="container">
+
+
+            <div id="googleLogo">
+                <img  style= "border: black" src="images/googlelogo_color.png" width="272" height="92"> 
+            </div> 
+
+            <div id=formDiv>
+
+                <form>
+                    <div>
+                
+                        <input type="text" name="search">
+
+                    </div>  
+                </form>  
+
+            </div>
+
+
+            <div id="searchButtons"> 
+
+            <ul>
+                
+                <li><input type="submit" name="" value="Google Search"></li>
+                <li><input type="submit" name="" value="I'm Feeling Lucky"></li>
+
+            </ul>
+
+            </div>
+
+            <div class="break"></div>
+
+            <p id="lang">Google offered in:</p>
+
+                <ul class="lang">
+                    <li><a href="">Hausa</li>
+                    <li><a href="">Igbo</li>
+                    <li><a href="">Ede Yoruba</li>
+                    <li><a href="">Nigerian</li>
+                    <li><a href="">Pidgin</li>
+                </ul    
+               
+        </div>  
+
+        <div class="break"></div>
+         
+        
+         
+	</div>
+    <div id="footerContainer">
+                
+                <div class="footer">
+                   <p class="foot">Nigeria</p>
+                </div>
+
+                <div class="footer">
+                    <ul>
+                        
+                        <li>Advertising</li>
+                        <li>Business</li>
+                        <li>About</li>
+                        <li>How Search Works</li>
+
+                    </ul>
+
+                    <ul id="right">
+                        
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Settings</li>
+
+                    </ul>
+                </div>
+                
+        </div> 
+
+</body>
+
+</html>
